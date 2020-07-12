@@ -1,0 +1,192 @@
+html {
+    background-image: url("/images/bats.gif");
+}
+main {
+    float: left;
+    background-color: white;
+    height: 550px;
+    margin-top: 15px;
+    padding-right: 80px;
+}
+body {
+    background-color:  color: rgba(255, 255, 255, 1);
+    background-color: white;
+    font-family: sans-serif;
+    width: 800px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 9px 8px black;
+    
+    margin: auto;
+    
+}
+h1 {
+    font-size: 260%;
+}
+aside h1 {
+    font-size: 165%;
+    padding-top: 40px;
+}
+
+aside p {
+    padding-left: 195px
+}
+
+header h2 {
+    font-size: 146%;
+    padding-bottom: 20px;
+}
+
+aside h1:first-child::first-letter { 
+    font-size: 200%;
+}
+img {
+    float: left;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+header {
+    text-indent: 2em;
+    border-bottom: 3px solid black;
+    padding-top: 1px;
+    background-image: -webkit-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+    background-image: -moz-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+    background-image: -o-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+    background-image: linear-gradient(45deg, white 0%, orange 75%, black 100%);
+    height: 105px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+nav ul {
+    float: left;
+}
+
+.bar:hover {
+    background-color: gray;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+    background-color: black;
+    width: 160px;
+    white-space: nowrap;
+    line-height:  40px;
+    padding-top: 0;
+}
+
+
+nav ul li a {    
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: black;
+}
+
+nav ul li:hover ul {
+    display: block;
+    text-align: center;
+}
+
+nav ul li ul li a {
+    
+}
+
+nav ul li ul li a:hover {
+    background-color: gray;
+    text-align: center;
+}
+
+
+
+a:link {
+    color: white;
+    font-weight: bold;
+}
+a.current {
+    color: orange;
+}
+a:hover, a:focus {
+    color: green;
+}
+li {
+    line-height: 1.4;
+}
+footer {
+    font-size: 75%;
+    text-align: center;
+    border-top: 3px solid black;
+    background-image: -webkit-linear-gradient(45deg, black 0%, orange 25%, white 100%);
+    background-image: -moz-linear-gradient(45deg, black 0%, orange 25%, white 100%);
+    background-image: -o-linear-gradient(45deg, black 0%, orange 25%, white 100%);
+    background-image: linear-gradient(45deg, black 0%, orange 25%, white 100%);
+    clear: both;
+    padding: 15px;
+}
+header h1 {
+    margin-top: 0.3em;
+    margin-bottom: 0;
+}
+aside p {
+    margin: 10px 0 16px;
+    font-size: 100%;
+    letter-spacing: 0.065em;
+}
+aside {
+    width: 800px;
+    height: 620px;
+    vertical-align: text-top;
+    background-color: white;
+    
+}
+
+
+#vert_list ul {
+    list-style-type: none;
+    padding-left: 0.8em;
+    padding-top: 15px;
+    margin-bottom: 550px;
+    
+}
+#vert_list ul li {
+    width: 100px;
+    margin-bottom: .5em;
+    border: 2px solid black;
+}
+#vert_list ul li a {
+    display: block;
+    background-color: orange;
+    color: black;
+    text-decoration: none;
+    padding: 0.4em;
+}
+aside img {
+    margin-left: 0;
+    margin-right: 425px;
+    margin-bottom: 15px;
+    padding-left: 0;
+}
+
+
+
+
+
+section {
+    padding-top:
+}
