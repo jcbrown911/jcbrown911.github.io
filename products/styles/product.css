@@ -60,7 +60,7 @@ nav ul li ul li a:hover {
 
 
 html {
-background-image: url("C:/Users/jcbro/Desktop/CURRENT CLASSES/Front end Web Dev/Homework 1 Assignment/halloween_exercises/halloween_exercises/images/bats.gif");;
+background-image: url("/images/bats.gif");;
 }
 main {
     float: left;
