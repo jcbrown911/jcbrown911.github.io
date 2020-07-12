@@ -156,6 +156,14 @@ aside {
     
 }
 
+.kitty a {
+    color:orange;
+}
+
+.kitty a:hover, .kitty a:focus {
+    color: green;
+}
+
 
 #vert_list ul {
     list-style-type: none;
