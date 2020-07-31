@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">	
+    <title>Applications</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/ta_app.css">
+    <script src="js/application.js"></script>
+</head>
+<body>
+    <header>
+       <img src="images/aum.jfif" alt="aum" usemap="#home">
+       <map name="home">
+           <area href="http://www.aum.edu" shape="rect" alt="Home" title="homepage" coords="0,0,319,104">
+       </map> 
+       <h1>Available Positions</h1>
+       <nav>
+           <ul>
+               <li><a class="bar" href="AUM-CSCI.html">Math/CS</a></li>
+               <li><a class="bar" href="#">What's New</a></li>
+               <li><a class="bar" href="#">All Depts</a></li>
+               <li><a class="bar" id="show" href="#">Programs</a>
+                   <ul id="drop">
+                       <li><a id="drop" href="program.html">Computer Science</a></li>
+                       <li><a id="drop" href="math.html">Mathematics</a></li>
+                   </ul>
+               </li>
+               <li><a class="bar" href="Admissions.html">Apply</a>
+                   <ul id="app">
+                       <li id="app"><a id="drop" href="#">Admissions</a></li>
+                       <li id="app"><a id="drop" href="application.html">Work Study</a></li>
+                   </ul>
+               </li>
+           </ul>
+       </nav>
+    </header>
+    <section>
+       <h1>Interested in becoming a Teacher's Assistant?</h1>
+       <img id="ta" src="images/ta.jpg">
+       <h2 id="desc">Fill out the application below to get started.</h2>
+        <form id="application_form" action="apply.php" method="post">
+            <h1>Teaching Assistant Application</h1>
+            <h2>Sudent Information</h2>
+                <label for="first_name">First Name: </label>
+                <input type="text" id="first_name" required autocomplete="off"><span> *</span><br>
+                <label for="middle_name">Middle Name: </label>
+                <input type="text" id="middle_name" placeholder="If Applicable" autocomplete="off"><br>
+                <label for="last_name">Last Name: </label>
+                <input type="text" id="last_name" required autocomplete="off"><span> *</span><br>
+                <label for="s_number">Student ID Number: </label>
+                <input type="text" id="s_number" required pattern="\d{8}" placeholder="99999999" autocomplete="off"><span> *</span><br>
+                <label for="gpa">GPA: </label>
+                <input type="text" id="gpa" required autocomplete="off"><span> *</span><br>
+                <label>&nbsp;</label>
+                <a href="calculator2.html" target="blank">Click for GPA Calculator</a><br>
+                Gender: <br>
+                <input type="radio" name="gender" value="male"> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br><br>
+            <h2>Contact Information</h2>
+                <label for="email">AUM Email Address: </label>
+                <input type="email" id="email" placeholder="example@aum.edu" required autocomplete="off"><br>
+                <label for="phone">Phone Number: </label><input type="text" id="phone" pattern="\d{3}[\-]\d{3}[\-]\{d4}" placeholder="Optional" title="Must be 999-999-9999" autocomplete="off"><br><br>
+                Comments: <br>
+                <textarea id="comments" placeholder="Enter comments or qualifications here"></textarea><br><br>
+                <input type="submit" id="button" value="Submit">
+                <input type="reset" id="reset"><br><br>
+                <label for="date">Submission Date: </label>
+                <input type="text" id="date" disabled="disabled"><br>
+                
+        </form>
+    </section>
+</body>
+<footer>
+   <section class="contact">
+    <h3>Prepared by:</h3>
+    <p>Jorden Brown S00050473<br>CSCI-4970 Summer 2020</p>
+    </section>
+    <section class="other">
+       <a href="#"><img id="pic" src="images/fb.png"></a>&nbsp;<a href="#"><img id="pic" src="images/IG.png"></a>&nbsp;<a href="#"><img id="pic" src="images/twitter.png"></a><br>
+        <br><p id="copy">&copy; 2020 JB's Projects&nbsp;</p>
+    </section>
+</footer>

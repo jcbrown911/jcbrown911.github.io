@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html {
+    background-color: orangered;
+}
+body {
+    width: 1000px;
+    border: 3px solid orange;
+    margin: auto;
+    padding: 0 30px;
+    background-color: white;
+}
+header h1 {
+    text-align: center;
+    padding: 10px 0;
+    font-family: sans-serif;
+}
+header img {
+    float: left;
+    height: 60px;
+    margin-top: auto;
+    padding:  5px;
+    padding-bottom: 8px;
+}
+nav {
+    height: 40px;
+}
+nav ul {
+    list-style: none;
+    position: relative;
+}
+nav ul li {
+    float: left;
+    border: 2px solid black;
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+#app {
+    width: 104px;
+}
+.bar {
+    padding-left: 65px;
+    padding-right: 65px;
+    margin: auto;
+    text-decoration: none;
+    color: orange;
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+}
+nav ul ul li {
+    float: none;
+    padding: 5px 33px;
+    margin-left: -2px;
+}
+.bar:hover {
+    color:lightblue;
+}
+nav ul li:hover > ul {
+    display: block;
+    text-align: center;
+}
+#drop {
+    color: orange;
+    text-decoration: none;
+}
+#drop:hover {
+    color:lightblue;
+}
+nav > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+footer {
+    height: 60px;
+    padding: 10px;
+    border-top: 10px solid black;
+    width: 971px;
+}
+.contact {
+    float: left;
+}
+.other {
+    float: right;
+}
+#pic {
+    height: 30px;
+    
+}
+#sideA {
+    float: left;
+    margin-bottom: 100px;
+    padding-top: 60px;
+    padding-left: 10px;
+    width: 150px;
+    
+}
+#sideA ul li {
+    list-style: none;
+}
+#sideA a{
+    text-decoration: none;
+    color: orangered;
+}
+#sideA a:hover {
+    color: black;
+}
+#sideA li p {
+    padding-top: 2px;
+}
+main {
+    height: 500px;
+    width: 790px;
+    
+}
+#sideA p {
+    font-size: 85%;
+    width: 115px;
+}
+#sideB {
+    float: right;
+    width: 190px;
+    background-color: re;
+    margin-top: -457px; 
+}
+#sideB ul li {
+    list-style: none;
+    padding-left: 30px;
+}
+#sideB a:hover {
+    color: black;
+}
+#sideB ul li a {
+    text-decoration: none;
+    color: orangered;
+}
+main p a {
+    color: orangered;
+    text-decoration: none;
+}
+main p a:hover {
+    color: black;
+}
+main img {
+    height: 120px;
+    width: 600px
+}
